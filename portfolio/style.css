@@ -1,0 +1,78 @@
+/* Reset some default styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: #c98484;
+}
+.photo-img {
+    width: 500px;         /* Set the desired width */
+    height: 650px;        /* Set the desired height */
+    border-radius: 40%;   /* Make it circular */
+    object-fit: cover;    /* Ensure the image doesn't distort */
+    margin-bottom: 10px;
+}
+
+
+/* Header section */
+header {
+    text-align: center;
+    background-color: #d373b6;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Profile image */
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* General section styles */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Links */
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Project cards */
+.project {
+    margin-bottom: 15px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    .profile-img {
+        width: 100px;
+        height: 100px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    header {
+        padding: 15px;
+    }
+}
