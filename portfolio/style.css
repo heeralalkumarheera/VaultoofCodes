@@ -1,4 +1,4 @@
-/* Reset some default styles */
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -7,15 +7,13 @@ body {
     background-color: #c98484;
 }
 .photo-img {
-    width: 500px;         /* Set the desired width */
-    height: 650px;        /* Set the desired height */
-    border-radius: 40%;   /* Make it circular */
-    object-fit: cover;    /* Ensure the image doesn't distort */
+    width: 500px;   
+    height: 650px;        
+    border-radius: 40%;   
+    object-fit: cover;    
     margin-bottom: 10px;
 }
 
-
-/* Header section */
 header {
     text-align: center;
     background-color: #d373b6;
@@ -24,26 +22,24 @@ header {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-
-/* Profile image */
-.profile-img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: 14px;
 }
 
-/* General section styles */
 section {
-    background-color: white;
+    background-color: rgb(192, 192, 181);
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Links */
 a {
     color: #007BFF;
     text-decoration: none;
@@ -52,12 +48,10 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Project cards */
 .project {
     margin-bottom: 15px;
 }
 
-/* Responsive Design */
 @media (max-width: 600px) {
     body {
         padding: 10px;
